@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/augustoroman/v8"
-	"github.com/augustoroman/v8/v8console"
-	"github.com/augustoroman/v8fetch"
+	"github.com/dkushner/veeate"
+	"github.com/dkushner/veeate/v8console"
+	"github.com/dkushner/veeate-fetch"
 )
 
 func TestAddHeader(t *testing.T) {

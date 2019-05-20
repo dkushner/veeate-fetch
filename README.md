@@ -1,6 +1,6 @@
-# v8fetch [![GoDoc](https://godoc.org/github.com/augustoroman/v8fetch?status.svg)](https://godoc.org/github.com/augustoroman/v8fetch)
+# veeate-fetch [![GoDoc](https://godoc.org/github.com/dkushner/veeate-fetch?status.svg)](https://godoc.org/github.com/dkushner/veeate-fetch)
 
-Fetch polyfill for [v8 bindings in go](https://github.com/augustoroman/v8) based
+Fetch polyfill for [v8 bindings in go](https://github.com/dkushner/veeate) based
 off of [the duktape fetch bindings](https://github.com/olebedev/go-duktape-fetch/).
 The javascript code & bundling is taken almost entirely from the duktape bindings.
 
@@ -12,9 +12,9 @@ package main
 import (
   "os"
 
-  "gopkg.in/augustoroman/v8"
-  "gopkg.in/augustoroman/v8/v8console"
-  "gopkg.in/augustoroman/v8fetch"
+  "gopkg.in/dkushner/veeate"
+  "gopkg.in/dkushner/veeate/v8console"
+  "gopkg.in/dkushner/veeate-fetch"
 )
 
 func main() {
@@ -33,5 +33,5 @@ This program will output `<!DOCTYPE html>` to stdout.
 Like the duktape bindings, you can specify a local http instance with
 `http.Handler` interface as a the second parameter. It will be used for all
 local requests which url starts with `/`(single slash). See
-[the examples](https://github.com/augustoroman/v8fetch/blob/master/example_test.go)
+[the examples](https://github.com/dkushner/veeate-fetch/blob/master/example_test.go)
 for more detail.

@@ -23,8 +23,8 @@ import (
 	"net/http/httptest"
 	"strings"
 
-	"github.com/augustoroman/v8"
-	"github.com/augustoroman/v8fetch/internal/data"
+	v8 "github.com/dkushner/veeate"
+	"github.com/dkushner/veeate-fetch/internal/data"
 )
 
 // Generate the embedded javascript code:

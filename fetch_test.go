@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/augustoroman/v8"
+	v8 "github.com/dkushner/veeate"
 )
 
 func TestLocalFetch(t *testing.T) {
